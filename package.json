@@ -1,7 +1,6 @@
 {
   "name": "socha",
   "version": "1.0.0",
-  "description": "",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +11,15 @@
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
     "gulp-sass": "^4.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yam86rus/Socha.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/yam86rus/Socha/issues"
+  },
+  "homepage": "https://github.com/yam86rus/Socha#readme",
+  "description": ""
 }
