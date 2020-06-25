@@ -1,0 +1,55 @@
+@media (max-width: 812px) {
+  .header {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+
+    &__inner {
+      grid-column-start: 1;
+      grid-column-end: 4;
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+  }
+  .video {
+    padding: 15px;
+    &__statistic-item {
+      h3 {
+        font-size: 61px;
+      }
+    }
+  }
+  .collection {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+
+    &__item-1 {
+      display: none;
+    }
+  }
+}
+// === / 812 ===
+@media (max-width: 767px) {
+  .video {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    padding: 15px;
+    &__statistic {
+      &-item {
+        h3 {
+          font-size: 61px;
+        }
+      }
+    }
+  }
+}
+// === / 767
+@media (max-width: 414px) {
+  .header {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+  // надо переделывать html :)
+  // 'это невозможно адаптировать лол"
+  // 'всем спасибо, все свободны'
+}
+// ==
