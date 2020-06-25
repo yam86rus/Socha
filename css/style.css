@@ -119,6 +119,23 @@ h6 {
     .header__nav-link:hover {
       color: #ffa800;
       transition: all 0.2s linear; }
+  .header__icons {
+    margin-top: 30px; }
+    .header__icons-title {
+      text-transform: uppercase;
+      font-size: 9px;
+      font-family: "Oswald", sans-serif;
+      margin-bottom: 5px; }
+  .header .social__icon {
+    margin: 10 4px 0 0;
+    width: 29px;
+    height: 29px;
+    fill: #ffa800;
+    opacity: .7;
+    transition: opacity, transform .2s ease-in-out; }
+    .header .social__icon:hover {
+      opacity: 1;
+      transform: translateY(-4px); }
   .header__column {
     position: relative; }
     a:hover .header__column-mask {
@@ -150,4 +167,5 @@ h6 {
       height: 100%;
       background-color: #ffa800;
       display: block;
-      opacity: 0; }
+      opacity: 0;
+      transition: opacity .3s linear; }
